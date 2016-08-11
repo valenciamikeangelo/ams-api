@@ -10,4 +10,4 @@ Contains 2 Products API endpoints <br />
 # Note
 update pom.xml packaging as war for AWS deployment in Tomcat <br />
 
-<packaging>war</packaging>
+<cdata> <packaging>war</packaging> </cdata>

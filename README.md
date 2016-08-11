@@ -1,6 +1,6 @@
 # ams-api
 
-Sample REST API using Spring Boot - Jersey - Swagger
+Sample REST API using Spring Boot - Jersey - Swagger <br />
 DEMO URL: http://amsapirest.zd8rsqbzk3.us-east-1.elasticbeanstalk.com
 
 # get the code
