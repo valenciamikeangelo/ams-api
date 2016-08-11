@@ -15,7 +15,6 @@
     
 	<properties>
 		<swagger.version>1.5.9</swagger.version>
-		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
