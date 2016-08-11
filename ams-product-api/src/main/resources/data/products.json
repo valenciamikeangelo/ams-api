@@ -1,0 +1,58 @@
+[
+	{
+		"code": "1",
+		"name": "ult_small",
+		"description": "Unlimited 1GB",
+		"price": 24.90,
+		"expiry": 30,
+		"is_plan": true,
+		"is_unlimited": true,
+		"size_mb": 1024,
+		"is_4g": true,
+		"auto_renew": true,
+		"termsUrl": "http://amaysim.com.au/terms-conditions/special-conditions-and-service-description-unlimited-1gb.pdf",
+		"infoUrl": "http://amaysim.com.au/critical-information-summary/critical-info-summary-unl-1gb.pdf"
+	},
+	{
+		"code": "2",
+		"name": "ult_medium",
+		"description": "Unlimited 2GB",
+		"price": 29.90,
+		"expiry": 30,
+		"is_plan": true,
+		"is_unlimited": true,
+		"size_mb": 2048,
+		"is_4g": true,
+		"auto_renew": true,
+		"termsUrl": "http://amaysim.com.au/terms-conditions/special-conditions-and-service-description-unlimited-2gb.pdf",
+		"infoUrl": "http://amaysim.com.au/critical-information-summary/critical-info-summary-unl-2gb.pdf"
+	},
+	{
+		"code": "3",
+		"name": "ult_large",
+		"description": "Unlimited 5GB",
+		"price": 44.90,
+		"expiry": 30,
+		"is_plan": true,
+		"is_unlimited": true,
+		"size_mb": 5120,
+		"is_4g": true,
+		"auto_renew": true,
+		"termsUrl": "http://amaysim.com.au/terms-conditions/special-conditions-and-service-description-unlimited-5gb.pdf",
+		"infoUrl": "http://amaysim.com.au/critical-information-summary/critical-info-summary-unl-5gb.pdf"
+	},
+	{
+		"code": "4",
+		"name": "ult_xlarge",
+		"description": "Unlimited 8GB",
+		"price": 49.90,
+		"expiry": 30,
+		"is_plan": true,
+		"is_unlimited": true,
+		"size_mb": 8192,
+		"is_4g": true,
+		"auto_renew": true,
+		"termsUrl": "http://amaysim.com.au/terms-conditions/special-conditions-and-service-description-unlimited-8gb.pdf",
+		"infoUrl": "http://amaysim.com.au/critical-information-summary/critical-info-summary-unl-8gb.pdf"
+	}
+]
