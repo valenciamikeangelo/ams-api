@@ -4,34 +4,33 @@
 	<groupId>proto.mav.com</groupId>
 	<artifactId>ams-product-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- Used only for AWS deployment --> 
-	<!--<packaging>war</packaging>-->
-        
+
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.0.RELEASE</version>
 	</parent>
-    
+
 	<properties>
 		<swagger.version>1.5.9</swagger.version>
 	</properties>
 
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<!-- Need for AWS Deployment in tomcat -->
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<!-- REST Dependency -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -51,6 +50,21 @@
 			<version>${swagger.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+		</dependency>
 
 	</dependencies>
 	<build>
